@@ -25,8 +25,6 @@ tulo = luku1 * luku2 * luku3
 keskiarvo = (luku1 + luku2 + luku3) / 3
 print(f"Lukujen summa on {summa}, tulo on {tulo}, ja keskiarvo on {keskiarvo:.2f}.")
 
-#tehtävä 5
-
 
 
 
