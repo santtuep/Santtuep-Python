@@ -38,7 +38,7 @@ print(f"Massa on {kilot} kilogrammaa ja {grammat:.2f} grammaa")
 
 #tehtävä 6
 for i in range (3): #muodostetaan loop, koodi sisällä suoritetaan 3 kertaa
-    print(random.randint(0, 9), end = " ") #silmukan sisällä tapahtuva koodi, tulostaa 3 kertaa luvun 1 ja 9 välillä
+    print(random.randint(0, 9), end = " ") #silmukan sisällä tapahtuva koodi, tulostaa 3 kertaa luvun 1 ja 9 välillä ja rivittää luvut
 print() #seuraava loop alkaa uudelta riviltä
 for i in range (4):
     print(random.randint(1, 6), end = " ")
