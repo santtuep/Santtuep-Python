@@ -1,6 +1,7 @@
 #harjoituksia
 
 import math
+import random
 
 user = input("Enter your name: ")
 print(f"Nice to meet you, {user}!")
@@ -21,3 +22,5 @@ farenheit = float(farenheit_str)
 celsius = (farenheit - 32) * 5 / 9
 print(f"The temperature in Celsius is {celsius}")
 
+luku = random.randint(1, 10)
+print(luku)
