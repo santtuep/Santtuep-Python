@@ -36,14 +36,7 @@ if sukupuoli == "Mies":
         print("Hemoglobiiniarvosi on normaali.")
 
 #tehtävä 4
-vuosiluku = int(input("Anna vuosiluku: "))
-if (vuosiluku % 400 == 0) or (vuosiluku % 4 == 0 and vuosiluku % 100 != 0):
-    print("Annettu vuosi on karkausvuosi.")
-else:
-    print("Annettu vuosi ei ole karkausvuosi.")
-
 vuosi = int(input("Anna vuosiluku: "))
-
 if vuosi % 4 == 0:  #onko jaollinen neljällä
     if vuosi % 100 == 0:  #jos jaollinen neljällä niin tarkastatetaan sadalla jaollisuus
         if vuosi % 400 == 0:  #jos jaollinen sadalla, tarkastetaan vielä erityisehto
